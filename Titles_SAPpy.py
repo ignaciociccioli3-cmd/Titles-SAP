@@ -43,7 +43,7 @@ persona_bases = [
         "keywords": [
             "legal", "abogado", "juridico", "corporate counsel", "general counsel", 
             "gc", "contratos", "propiedad intelectual", "pi", "litigios", "regulatorio", 
-            "secretario corporativo", "notaria", "legales", "abogada"
+            "secretario corporativo", "notaria", "legales", "abogada", "normas", "legislacion"
         ],
         "has_clevel_variant": True
     },
@@ -69,7 +69,7 @@ persona_bases = [
             "salesforce commerce", "pdp", "checkout", "carrito", "merchandising",
             "catalogo", "pim", "oms", "order management", "fulfillment", "conversion",
             "cro", "a/b test", "marketplaces manager", "pricing", "promociones", "negocios",
-            "digital commerce"
+            "digital commerce", "e commerce", "E-Billing"
         ],
         "has_clevel_variant": False
     },
@@ -95,18 +95,18 @@ persona_bases = [
     {
         "base_name": "Human Resources | Payroll",
         "keywords": [
-            "nomina", "payroll", "liquidacion", "remuneraciones", "planilla",
-            "sueldos", "salarios", "haberes", "tss", "adp", "nominas",
+            "nomina", "payroll", "liquidacion", "remuneraciones", "planilla", "nonima", "nonimas",
+            "sueldos", "salarios", "haberes", "tss", "adp", "nominas", "n?minas"
         ],
         "has_clevel_variant": False
     },
     {
         "base_name": "Human Resources | C-Level",
         "keywords": [
-            "rrhh", "rh", "hr", "humanos", "humano",
+            "rrhh", "rh", "hr", "humanos", "humano", "huamanos",
             "people", "humana", "cultura", "chro", "human",
             "chief human resources officer", "RR. HH.", "rr hh", "rr.hh",
-            "R.R.H.H.", "hhrr", "hrbp"
+            "R.R.H.H.", "hhrr", "hrbp", "hcm", "h.r.", "h.r"
         ],
         "has_clevel_variant": False
     },
@@ -126,11 +126,10 @@ persona_bases = [
         "keywords": [
             "business intelligence", "inteligencia de negocios", "inteligencia de negocio",
             "inteligencia negocio", "inteligencia negocios", "bi", "data science",
-            "data y analitica", "analytics and data", "business analysis", "analiticos",
+            "data y analitica", "business analysis", "analiticos", "analitica",
             "analitica de informacion", "analitica de datos", "ciencia de datos",
-            "cientifico de datos", "machine learning", "data analyst",
-            "visualizacion de datos", "dashboard", "chief analytics officer",
-            "head of analytics", "data warehouse", "analytics"
+            "cientifico de datos", "machine learning", "data analyst", "bussiness intelligence",
+            "visualizacion de datos", "dashboard", "data warehouse", "analytics"
         ],
         "has_clevel_variant": True
     },
@@ -144,9 +143,11 @@ persona_bases = [
             "itil", "active directory", "windows server", "linux server", "vmware",
             "esxi", "vcenter", "hyper-v", "virtualizacion", "citrix", "redes",
             "networking", "switching", "routing", "dns", "dhcp", "vpn", "sd-wan",
-            "wifi", "wireless", "tecnologias", "informaticos", "informatica",
-            "cto", "cio", "T.I.", "I.T.", "info", "systems", "technology", "tech", "T. I."
-            "informacion", "information"
+            "wifi", "wireless", "tecnologias", "informaticos", "informatica", "chatbot",
+            "cto", "cio", "T.I.", "I.T.", "info", "systems", "technology", "tech", "T. I.",
+            "informacion", "information", "T.I", "programming", "system manager", "application",
+            "programacion", "Applications", "computer", "tencologia", "technological", "i.t", "tecnoloogicos",
+            "tecnolog?a", "programador", "tenologia"
         ],
         "has_clevel_variant": True
     },
@@ -154,8 +155,9 @@ persona_bases = [
         "base_name": "Database, Data Management & Information",
         "keywords": [
             "datos", "data", "metadatos", "metadata", "sql", "nosql",
-            "mysql", "postgresql", "postgres", "database",
-            "Infrastructure", "infraestructura", "cloud", "backend", "internet", "site"
+            "mysql", "postgresql", "postgres", "database", "architect", "internet",
+            "Infrastructure", "infraestructura", "cloud", "backend", "internet", "site",
+            "arquitect", "arquitecto"
         ],
         "has_clevel_variant": False
     },
@@ -187,7 +189,7 @@ persona_bases = [
         "keywords": [
             "l&d", "aprendizaje", "formacion", "capacitacion", "desarrollo",
             "training", "upskilling", "reskilling", "lms", "coaching", "mentoring",
-            "universidad corporativa"
+            "universidad corporativa", "development"
         ],
         "has_clevel_variant": False
     },
@@ -209,18 +211,7 @@ persona_bases = [
             "pronostico", "forecasting", "mrp", "mps", "drp", "aps", "replenishment",
             "inventory", "production", "produccion", "sap apo", "sap ibp", "kinaxis",
             "o9", "blue yonder", "jda", "anaplan", "e2open", "cpfr", "demand planner",
-            "supply planner", "suministro"
-        ],
-        "has_clevel_variant": False
-    },
-    {
-        "base_name": "Sustainability",
-        "keywords": [
-            "sostenibilidad", "sustentabilidad", "esg", "medioambiente", "ambiental",
-            "huella de carbono", "net zero", "carbono neutral", "rse", "csr", "ehs",
-            "hse", "seguridad y salud", "reportes esg", "gri", "sasb", "tcfd",
-            "impacto ambiental", "economia circular", "energias renovables",
-            "chief sustainability officer", "cso"
+            "supply planner", "suministro", "sumnistro", "producci?n", "produccin", "automotriz"
         ],
         "has_clevel_variant": False
     },
@@ -229,9 +220,9 @@ persona_bases = [
         "keywords": [
             "operaciones", "operational excellence", "operativa", "opex",
             "coo", "procesos", "bpm", "lean", "six sigma", "kaizen", "kanban",
-            "just in time", "jit", "oee", "mejora continua", "operating","operativo"
+            "just in time", "jit", "oee", "mejora continua", "operating","operativo",
             "optimizaciones", "optimizacion", "tecnica", "operations", "operation",
-            "productivity", "automation"
+            "productivity", "automation", "operacional"
         ],
         "has_clevel_variant": True
     },
@@ -241,18 +232,18 @@ persona_bases = [
             "planta", "mantenimiento", "shutdown", "cmms", "sap pm", "maximo",
             "infor eam", "emaint", "plant", "confiabilidad", "reliability", "rcm",
             "tpm", "lubricacion", "instrumentacion", "reliability engineer", "line manager",
-            "jefe de linea", "factory", "almacen", "almacenes"
+            "jefe de linea", "factory", "almacen", "almacenes", "stock"
         ],
         "has_clevel_variant": False
     },
     {
         "base_name": "Procurement/Purchasing",
         "keywords": [
-            "compras", "procurement", "sourcing", "abastecimiento", "proveedores",
-            "negociacion", "category manager", "buyer", "comprador", "licitacion",
+            "compras", "procurement", "sourcing", "abastecimiento", "proveedores", "abastecimimientos",
+            "negociacion", "category manager", "buyer", "comprador", "licitacion", "purchases",
             "rfq", "rfi", "rfx", "contrataciones", "purchase", "purchasing", "srm",
             "vendor management", "supplier", "ahorros", "spend", "ariba", "coupa",
-            "jaggaer", "sap mm", "orden de compra", "suministros", "cpo", "adquisiciones"
+            "jaggaer", "sap mm", "orden de compra", "suministros", "cpo", "adquisiciones", "acquisitions"
         ],
         "has_clevel_variant": True
     },
@@ -265,7 +256,7 @@ persona_bases = [
             "laboratorio", "ensayos", "materiales", "mecatronica", "electronica",
             "mecanica", "embedded", "firmware", "hardware", "diseno de experimentos",
             "doe", "catia", "nx", "solidworks", "ansys", "comsol", "matlab",
-            "simulacion", "research scientist", "materials"
+            "simulacion", "research scientist", "materials", "material"
         ],
         "has_clevel_variant": False
     },
@@ -286,21 +277,21 @@ persona_bases = [
             "logistica", "transporte", "freight", "flete", "envios", "despacho",
             "expedicion", "distribucion", "3pl", "4pl", "courier", "operador logistico",
             "flota", "ruteo", "ultima milla", "last mile", "importaciones",
-            "exportaciones", "comercio exterior", "aduanas", "customs", "forwarder",
+            "exportaciones", "aduanas", "customs", "forwarder", "log?stica", "logistic",
             "incoterms", "tms", "wms", "almacen", "bodega", "warehouse", "inventario",
             "cross docking", "construccion", "retail", "obra", "fabrica", "obras", "procesos",
-            "logisitica", "logistics", "inventarios", "inventories", "transportation"
+            "logisitica", "logistics", "inventarios", "inventories", "transportation", "logi?stica"
         ],
         "has_clevel_variant": False
     },
     {
         "base_name": "Manufacturing",
         "keywords": [
-            "manufactura", "fabricacion", "produccion",
+            "manufactura", "fabricacion", "produccion", "co-manufacturing", "textil", "taller",
             "jefe de produccion", "supervisor de produccion", "ingeniero de procesos",
-            "process engineer", "lean manufacturing", "six sigma", "oee", "kaizen",
+            "process engineer", "manufacturing", "six sigma", "oee", "kaizen",
             "gemba", "tpm", "5s", "apqp", "ppap", "spc", "quality", "calidad", "mes",
-            "sap pp", "maquinaria", "operario", "shop floor", "empaque"
+            "sap pp", "maquinaria", "operario", "shop floor", "empaque", "mining"
         ],
         "has_clevel_variant": False
     },
@@ -310,7 +301,7 @@ persona_bases = [
             "cliente", "customer", "soporte", "postventa", "call center",
             "contact center", "mesa de ayuda", "helpdesk", "cx", "nps", "sac",
             "quejas", "reclamos", "retencion", "omnicanal", "omnichannel", "clientes",
-            "client"
+            "client", "clients", "costumer"
         ],
         "has_clevel_variant": False
     },
@@ -321,31 +312,20 @@ persona_bases = [
             "market research", "insights", "posicionamiento", "atl", "btl",
             "comunicacion", "campanas", "patrocinios", "lanzamiento", "cmo", 
             "mkt", "mercadeo", "product", "producto", "marketin", "mercadotecnia",
-            "publicidad"
+            "publicidad", "creative"
         ],
         "has_clevel_variant": True
     },
     {
         "base_name": "Sales",
         "keywords": [
-            "ventas", "comercial", "sales", "account manager", "kam", "key account", 
+            "ventas", "comercial", "sales", "acount", "account", "accounts"
             "kae", "preventa", "presales", "posventa", "territory", "cuota", "quota", 
             "pipeline", "crm", "salesforce", "zoho", "hubspot", "negociacion", "hunter", 
             "farmer", "chief revenue officer", "cro", "chief sales officer", "cso", "commercial",
-            "comercializacion", "demanda"
+            "comercializacion", "demanda", "cuentas", "cuenta", "comercio"
         ],
         "has_clevel_variant": True
-    },
-    {
-        "base_name": "Business Development",
-        "keywords": [
-            "desarrollo de negocios", "business", "bd", "bdm", "alianzas",
-            "partnerships", "channel", "canales", "ecosistema", "corporate development",
-            "expansion", "apertura de mercados", "go to market", "gtm", "licenciamiento",
-            "new business", "estrategia comercial",
-            "strategic partnerships", "hunter"
-        ],
-        "has_clevel_variant": False
     },
     {
         "base_name": "Digital Transformation & Innovation",
@@ -360,8 +340,9 @@ persona_bases = [
         "base_name": "Audit",
         "keywords": [
             "auditor", "auditoria", "audit", "auditing", "auditora", "sox", 
-            "control de calidad", "revisor fiscal", "revision fiscal", "interventoria", "compliance", "cumplimiento", "inspection", 
-            "inspeccion", "verificacion", "supervision", "monitoreo"
+            "control de calidad", "revisor fiscal", "revision fiscal", "interventoria",
+            "compliance", "cumplimiento", "inspection", "inspeccion", "verificacion", "supervision",
+            "monitoreo", "contralor", "contraloria", "contraloria", "control interno", "cro"
         ],
         "has_clevel_variant": True
     },
@@ -377,24 +358,37 @@ persona_bases = [
     {
         "base_name": "Finance/Accounting",
         "keywords": [
-            "finanzas", "contabilidad", "accounting", "tesoreria", "cobranza", "pagos", 
+            "finanzas", "contabilidad", "accounting", "tesoreria", "cobranza", "pagos", "gastos",
             "cobrar", "facturacion", "impuestos", "tax", "cobros", "finance", "fianzas",
-            "financiero", "finance" "presupuesto", "budget", "financiera", "costos", "cost", "cfo",
-            "presupuestos", "contable", "contador", "contadora", "tesorera", "liquidaciones", "cuentas",
+            "financiero", "finance", "presupuesto", "budget", "financiera", "costos", "cost", "cfo",
+            "presupuestos", "contable", "contador", "contadora", "tesorera", "liquidaciones",
             "tributario", "credito", "creditos", "cobranzas", "tesoreria", "pagar", "fianza", "financial",
-            "portfolio", "patrimonial", "patrimonio", "credit", "treasury", "account", "revenue", "bank",
+            "portfolio", "patrimonial", "patrimonio", "credit", "treasury", "revenue", "bank", "ingresos",
             "bursatil", "bustatil", "licitacion", "licitaciones", "cartera", "taxes", "financiamiento",
-            "microfinanzas", "activo", "estadistica", "contralor", "contraloria", "contraloria", "control interno", "cro"
+            "microfinanzas", "activo", "estadistica", "financieros", "tributaria", "tributario", "tributarias",
+            "tributarios", "business unit", "tesorero", "investment", "accountant", "contabilida", "bancarias",
+            "tesorer?a", "tesorer?a?", "inversiones", "inversion", "contaduria", "fondos", "expenses", "finanza", "portofolio"
         ],
         "has_clevel_variant": True
     },
     {
+        "base_name": "Business Development",
+        "keywords": [
+            "desarrollo de negocios", "business", "bd", "bdm", "alianzas",
+            "partnerships", "channel", "canales", "ecosistema", "corporate development",
+            "expansion", "apertura de mercados", "go to market", "gtm", "licenciamiento",
+            "estrategia comercial", "strategic partnerships", "hunter"
+        ],
+        "has_clevel_variant": False
+    },
+    {
         "base_name": "Chief Executive Officer",
         "keywords": [
-            "ceo", "general", "dueño", "propietario", "managing", "fundador", "executive",
-            "presidente", "cofundador", "founder", "owner", "head", "ejecutiva",
-            "vp", "vicepresidente", "board", "country manager", "administrativo", "admnistrativo"
-            "director ejecutivo", "socio", "ejecutivo", "direccion general", "chief executive officer", "executive"
+            "ceo", "general", "dueño", "propietario", "managing", "fundador", "executive", "area", "excecutive",
+            "presidente", "cofundador", "founder", "owner", "head", "ejecutiva", "sucursal", "branch", "distrito",
+            "vp", "vicepresidente", "board", "country", "administrativo", "admnistrativo", "administrativa", "exec",
+            "ejecutivo", "socio", "direccion general", "executive", "geral", "senior", "superintendente", "administraci?n",
+            "founding", "fundadora", "regional", "administrative", "territorio", "team", "equipo", "region", "pais", "city", "zona"
         ],
         "has_clevel_variant": False
     },
@@ -410,7 +404,7 @@ persona_bases = [
         {
         "base_name": "SAP Competency Center",
         "keywords": [
-            "sap", "centro de excelencia", "coe", "competency center", "abap", "s/4hana", "solman", "ariba", "ibp", "apo", "erp"
+            "sap", "centro de excelencia", "coe", "competency center", "abap", "s/4hana", "solman", "ariba", "ibp", "apo", "erp", "b1"
         ],
         "has_clevel_variant": False
     },
@@ -418,9 +412,19 @@ persona_bases = [
         "base_name": "Asset Management (MRO)",
         "keywords": [
             "gestion de activos", "asset management", "mro", "mantenimiento", "repuestos", 
-            "spares", "almacen de repuestos", "eam", "enterprise asset management", "apm", 
+            "spares", "eam", "enterprise asset management", "apm", 
             "asset performance", "cmms", "maximo", "infor eam", "sap pm", "fiabilidad", "reliability", 
             "rcm", "inspeccion", "predictivo", "condition monitoring", "scada"
+        ],
+        "has_clevel_variant": False
+    },
+    {
+        "base_name": "Sustainability",
+        "keywords": [
+            "sostenibilidad", "sustentabilidad", "esg", "medioambiente", "ambiental",
+            "huella de carbono", "net zero", "carbono neutral", "rse", "csr", "ehs",
+            "hse", "salud", "reportes esg", "gri", "sasb", "tcfd", "medioambiente",
+            "economia circular", "energias renovables", "sustainability", "cso", "ambientes", "environmental", "ambiente"
         ],
         "has_clevel_variant": False
     }
@@ -446,11 +450,11 @@ for base in persona_bases:
 # ============================================================
 
 clevel_no = ['analista', 'asistente', 'ayudante', 'intern', "trainee", "pasante", "junior", "encargado", "consultor", "ingeniero", "supervisor",
-             "reprsentante", "responsable"]
+             "reprsentante", "responsable", "analyst"]
 
 clevel_si = ['manager', 'ceo', 'cfo', 'jefe', 'dueño', "gerente", "coo", "cpo", "cso", "chief", "owner", "presidente", "president", "founder", "vp",
              "vicepresident", "vice", "leader", "cmo", "chro", "cio", "cto", "cdo", "director", "vicepresidente", "socio", "cofounder", "co-founder",
-             "coordinador", "lead", "cofundador", "fundador"]
+             "coordinador", "lead", "cofundador", "fundador", "senior", "superintendente", "subgerente", "partner", "fundadora"]
 
 
 lob_fs = list({kw for b in persona_bases if b["base_name"] in ["Finance/Accounting", "Procurement/Purchasing"] for kw in b["keywords"]})
@@ -463,7 +467,7 @@ lob_hcm = list({kw for b in persona_bases if b["base_name"] in [
 lob_s4 = list({kw for b in persona_bases if b["base_name"] in [
     "Finance/Accounting", "Inform. Technology", "Data Protection, Privacy & Information Security", "Analytics and Data Warehousing",
     "Database, Data Management & Information","Digital Transformation & Innovation", "Operations | C-Level", "Chief Executive Officer"] for kw in b["keywords"]}| 
-    {"ceo", "chief executive officer", "director general", "presidente"})
+    {"ceo", "chief executive officer", "director general", "presidente", "senior manager", "superintendente"})
 
 lob_btp = list({kw for b in persona_bases if b["base_name"] in [
     "Inform. Technology", "Data Protection, Privacy & Information Security", "Analytics and Data Warehousing",
