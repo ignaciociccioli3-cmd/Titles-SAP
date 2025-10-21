@@ -41,9 +41,9 @@ persona_bases = [
     {
         "base_name": "Legal",
         "keywords": [
-            "legal", "abogado", "juridico", "corporate counsel", "general counsel", 
-            "gc", "contratos", "propiedad intelectual", "pi", "litigios", "regulatorio", 
-            "secretario corporativo", "notaria", "legales", "abogada", "normas", "legislacion"
+            "legal", "abogado", "juridico", "corporate counsel", "general counsel", "lawyer",
+            "gc", "contratos", "propiedad intelectual", "pi", "litigios", "regulatorio", "normatividad",
+            "secretario corporativo", "notaria", "legales", "abogada", "normas", "legislacion", "normativa"
         ],
         "has_clevel_variant": True
     },
@@ -87,7 +87,7 @@ persona_bases = [
         "keywords": [
             "compensacion", "beneficios", "comp & ben", "c&b", "rewars",
             "equidad salarial", "estructura salarial", "bandas salariales",
-            "incentivos", "bonos", "remuneraciones", "paquete de beneficios",
+            "incentivos", "bonos", "remuneraciones", "benefits", "benefit", "comp",
             "esquema de comisiones", "compensaciones", "compensation", "rewards"
         ],
         "has_clevel_variant": False
@@ -103,10 +103,10 @@ persona_bases = [
     {
         "base_name": "Human Resources | C-Level",
         "keywords": [
-            "rrhh", "rh", "hr", "humanos", "humano", "huamanos",
-            "people", "humana", "cultura", "chro", "human",
+            "rrhh", "rh", "hr", "humanos", "humano", "huamanos", "cultural",
+            "people", "humana", "cultura", "chro", "human", "cap hum",
             "chief human resources officer", "RR. HH.", "rr hh", "rr.hh",
-            "R.R.H.H.", "hhrr", "hrbp", "hcm", "h.r.", "h.r"
+            "R.R.H.H.", "hhrr", "hrbp", "hcm", "h.r.", "h.r", "humans", "r.h", "r.h."
         ],
         "has_clevel_variant": False
     },
@@ -117,7 +117,7 @@ persona_bases = [
             "seguridad de la informacion", "data security", "cybersecurity",
             "proteccion de datos", "data protection", "privacy officer",
             "security officer", "access management", "cloud security", "cyber",
-            "seguridad en la nube", "vulnerabilidades", "vulnerability", "data loss"
+            "nube", "vulnerabilidades", "vulnerability", "data loss"
         ],
         "has_clevel_variant": True
     },
@@ -141,13 +141,13 @@ persona_bases = [
             "soporte tecnico", "helpdesk", "sysadmin", "system administrator",
             "mesa de ayuda", "helpdesk", "help desk", "service desk", "itsm",
             "itil", "active directory", "windows server", "linux server", "vmware",
-            "esxi", "vcenter", "hyper-v", "virtualizacion", "citrix", "redes",
+            "esxi", "vcenter", "hyper-v", "virtualizacion", "citrix", "redes", "red",
             "networking", "switching", "routing", "dns", "dhcp", "vpn", "sd-wan",
             "wifi", "wireless", "tecnologias", "informaticos", "informatica", "chatbot",
             "cto", "cio", "T.I.", "I.T.", "info", "systems", "technology", "tech", "T. I.",
             "informacion", "information", "T.I", "programming", "system manager", "application",
             "programacion", "Applications", "computer", "tencologia", "technological", "i.t", "tecnoloogicos",
-            "tecnolog?a", "programador", "tenologia"
+            "tecnolog?a", "programador", "tenologia", "BTP", "tecnologicas", "tecnologica"
         ],
         "has_clevel_variant": True
     },
@@ -157,7 +157,7 @@ persona_bases = [
             "datos", "data", "metadatos", "metadata", "sql", "nosql",
             "mysql", "postgresql", "postgres", "database", "architect", "internet",
             "Infrastructure", "infraestructura", "cloud", "backend", "internet", "site",
-            "arquitect", "arquitecto"
+            "arquitect", "arquitecto", "informatique"
         ],
         "has_clevel_variant": False
     },
@@ -175,7 +175,7 @@ persona_bases = [
             "employee", "empleado", "engagement", "relations", "personas",
             "clima laboral", "bienestar", "wellbeing", "cultura", "encuestas",
             "onboarding", "offboarding", "comunicacion interna", "employer branding",
-            "personal", "relaciones", "staff", "laboral"
+            "personal", "relaciones", "staff", "laboral", "chief experience officer"
         ],
         "has_clevel_variant": False
     },
@@ -197,7 +197,7 @@ persona_bases = [
         "base_name": "Human Resources | Talent Acquisition",
         "keywords": [
             "talent", "reclutamiento", "seleccion", "recruiting",
-            "headhunter", "sourcing", "sourcer",
+            "headhunter", "sourcing", "sourcer", "bolsa de trabajo",
             "entrevista", "ta", "onboarding", "employer branding",
             "acquisition", "personas", "recruitment", "talento"
         ],
@@ -243,7 +243,7 @@ persona_bases = [
             "negociacion", "category manager", "buyer", "comprador", "licitacion", "purchases",
             "rfq", "rfi", "rfx", "contrataciones", "purchase", "purchasing", "srm",
             "vendor management", "supplier", "ahorros", "spend", "ariba", "coupa",
-            "jaggaer", "sap mm", "orden de compra", "suministros", "cpo", "adquisiciones", "acquisitions"
+            "jaggaer", "sap mm", "compra", "suministros", "cpo", "adquisiciones", "acquisitions"
         ],
         "has_clevel_variant": True
     },
@@ -275,8 +275,8 @@ persona_bases = [
         "base_name": "Logistics (Transport/Freight)",
         "keywords": [
             "logistica", "transporte", "freight", "flete", "envios", "despacho",
-            "expedicion", "distribucion", "3pl", "4pl", "courier", "operador logistico",
-            "flota", "ruteo", "ultima milla", "last mile", "importaciones",
+            "expedicion", "distribucion", "3pl", "4pl", "courier", "logistico",
+            "flota", "ruteo", "ultima milla", "last mile", "importaciones", "logisticas",
             "exportaciones", "aduanas", "customs", "forwarder", "log?stica", "logistic",
             "incoterms", "tms", "wms", "almacen", "bodega", "warehouse", "inventario",
             "cross docking", "construccion", "retail", "obra", "fabrica", "obras", "procesos",
@@ -332,7 +332,7 @@ persona_bases = [
         "keywords": [
             "digital", "innovacion", "automatizacion", "innovation",
             "internet de las cosas", "iot", "chief digital officer", "blockchain",
-            "ai", "ia", "digitales", "transformation", "web", "network", "transformacion"
+            "ai", "ia", "digitales", "transformation", "web", "network", "transformacion", "inteligencia artificial"
         ],
         "has_clevel_variant": True
     },
@@ -358,10 +358,10 @@ persona_bases = [
     {
         "base_name": "Finance/Accounting",
         "keywords": [
-            "finanzas", "contabilidad", "accounting", "tesoreria", "cobranza", "pagos", "gastos",
-            "cobrar", "facturacion", "impuestos", "tax", "cobros", "finance", "fianzas",
+            "finanzas", "contabilidad", "accounting", "tesoreria", "cobranza", "pagos", "gastos", "presupuestal",
+            "cobrar", "facturacion", "impuestos", "tax", "cobros", "finance", "fianzas", "accounting",
             "financiero", "finance", "presupuesto", "budget", "financiera", "costos", "cost", "cfo",
-            "presupuestos", "contable", "contador", "contadora", "tesorera", "liquidaciones",
+            "presupuestos", "contable", "contador", "contadora", "tesorera", "liquidaciones", "fiscal", "valuaciones",
             "tributario", "credito", "creditos", "cobranzas", "tesoreria", "pagar", "fianza", "financial",
             "portfolio", "patrimonial", "patrimonio", "credit", "treasury", "revenue", "bank", "ingresos",
             "bursatil", "bustatil", "licitacion", "licitaciones", "cartera", "taxes", "financiamiento",
@@ -382,13 +382,22 @@ persona_bases = [
         "has_clevel_variant": False
     },
     {
+        "base_name": "Media/Communications/PR",
+        "keywords": [
+            "comunicaciones", "comunicacion", "comunication", "comunications", "prensa", "press", "comunicadora",
+            "comunicador", "public relations", "relacions publicas", "pr", "communications","communication", "journalist",
+            "reporter", "periodista", "columnista", "news", "telecomunicaciones", "telecomunicacion"
+        ],
+        "has_clevel_variant": False
+    },
+    {
         "base_name": "Chief Executive Officer",
         "keywords": [
-            "ceo", "general", "dueño", "propietario", "managing", "fundador", "executive", "area", "excecutive",
+            "ceo", "general", "dueño", "propietario", "managing", "fundador", "executive", "area", "excecutive", "chairman",
             "presidente", "cofundador", "founder", "owner", "head", "ejecutiva", "sucursal", "branch", "distrito",
-            "vp", "vicepresidente", "board", "country", "administrativo", "admnistrativo", "administrativa", "exec",
+            "vp", "vicepresidente", "board", "country", "administrativo", "admnistrativo", "administrativa", "exec", "sede",
             "ejecutivo", "socio", "direccion general", "executive", "geral", "senior", "superintendente", "administraci?n",
-            "founding", "fundadora", "regional", "administrative", "territorio", "team", "equipo", "region", "pais", "city", "zona"
+            "founding", "fundadora", "regional", "administrative", "territorio", "team", "equipo", "region", "pais", "city", "zona", "vicepresident"
         ],
         "has_clevel_variant": False
     },
@@ -454,7 +463,10 @@ clevel_no = ['analista', 'asistente', 'ayudante', 'intern', "trainee", "pasante"
 
 clevel_si = ['manager', 'ceo', 'cfo', 'jefe', 'dueño', "gerente", "coo", "cpo", "cso", "chief", "owner", "presidente", "president", "founder", "vp",
              "vicepresident", "vice", "leader", "cmo", "chro", "cio", "cto", "cdo", "director", "vicepresidente", "socio", "cofounder", "co-founder",
-             "coordinador", "lead", "cofundador", "fundador", "senior", "superintendente", "subgerente", "partner", "fundadora"]
+             "coordinador", "lead", "cofundador", "fundador", "senior", "superintendente", "subgerente", "partner", "fundadora", "subdirector", "directora",
+             "lider", "head", "chairman", "lider", "director", "jefa", "coordinadora", "coord", "gte", "LÃDER", "dir", "administrador", "administradora",
+             "coordinator", "encargado", "encargada", "executive", "jefatura", "board", "direcciÃ³n", "subdirectora", "subdireccion", "hrbp", "subdir",
+             "subgerencia", "executive"]
 
 
 lob_fs = list({kw for b in persona_bases if b["base_name"] in ["Finance/Accounting", "Procurement/Purchasing"] for kw in b["keywords"]})
@@ -478,7 +490,7 @@ lob_cx = list({kw for b in persona_bases if b["base_name"] in [
 
 lob_dsc = list({kw for b in persona_bases if b["base_name"] in [
     "Logistics (Transport/Freight)", "Product Engineering/Design | C-Level", "Supply Chain Planning", "Operations | C-Level",
-    "Product Development / R&D / Engineering", "Plant Maintenance", "Sustaintability"] for kw in b["keywords"]})
+    "Product Development / R&D / Engineering", "Plant Maintenance", "Sustaintability", "Manufacturing"] for kw in b["keywords"]})
 
 def normalizar(texto):
     texto = str(texto).lower()
@@ -495,10 +507,10 @@ def contains_word(text, words):
     return False
 
 def get_clevel(title):
-    if contains_word(title, clevel_no):
-        return 'No'
-    elif contains_word(title, clevel_si):
+    if contains_word(title, clevel_si):
         return 'Si'
+    elif contains_word(title, clevel_no):
+        return 'No'
     else:
         return ''
 
@@ -509,6 +521,10 @@ def get_lob(title):
         return 'HCM'
     elif contains_word(title, lob_btp):
         return 'BTP'
+    elif contains_word(title, lob_dsc):
+        return 'DSC'
+    elif contains_word(title, lob_cx):
+        return 'CX'
     elif contains_word(title, lob_s4):
         return 'S4'
     else:
