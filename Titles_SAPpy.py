@@ -39,15 +39,6 @@ df['Titles'] = df['Titles'].apply(limpiar_texto)
 
 persona_bases = [
     {
-        "base_name": "Legal",
-        "keywords": [
-            "legal", "abogado", "juridico", "corporate counsel", "general counsel", "lawyer",
-            "gc", "contratos", "propiedad intelectual", "pi", "litigios", "regulatorio", "normatividad",
-            "secretario corporativo", "notaria", "legales", "abogada", "normas", "legislacion", "normativa"
-        ],
-        "has_clevel_variant": True
-    },
-    {
         "base_name": "Digital Marketing",
         "keywords": [
             "marketing digital", "seo", "sem", "ppc", "ads", "google ads", "meta ads",
@@ -216,7 +207,7 @@ persona_bases = [
         "has_clevel_variant": False
     },
     {
-        "base_name": "Operations | C-Level",
+        "base_name": "Operations",
         "keywords": [
             "operaciones", "operational excellence", "operativa", "opex",
             "coo", "procesos", "bpm", "lean", "six sigma", "kaizen", "kanban",
@@ -410,7 +401,7 @@ persona_bases = [
         ],
         "has_clevel_variant": False
     },
-        {
+    {
         "base_name": "SAP Competency Center",
         "keywords": [
             "sap", "centro de excelencia", "coe", "competency center", "abap", "s/4hana", "solman", "ariba", "ibp", "apo", "erp", "b1"
@@ -428,6 +419,15 @@ persona_bases = [
         "has_clevel_variant": False
     },
     {
+        "base_name": "Legal",
+        "keywords": [
+            "legal", "abogado", "juridico", "corporate counsel", "general counsel", "lawyer",
+            "gc", "contratos", "propiedad intelectual", "pi", "litigios", "regulatorio", "normatividad",
+            "secretario corporativo", "notaria", "legales", "abogada", "normas", "legislacion", "normativa"
+        ],
+        "has_clevel_variant": True
+    },
+    {
         "base_name": "Sustainability",
         "keywords": [
             "sostenibilidad", "sustentabilidad", "esg", "medioambiente", "ambiental",
@@ -435,7 +435,7 @@ persona_bases = [
             "hse", "salud", "reportes esg", "gri", "sasb", "tcfd", "medioambiente",
             "economia circular", "energias renovables", "sustainability", "cso", "ambientes", "environmental", "ambiente"
         ],
-        "has_clevel_variant": False
+        "has_clevel_variant": True
     }
 ]
 
